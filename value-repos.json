@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "description": "Repos promoted into the ranked value tier — discovered to hold concrete, build-out-worthy latent value.",
+  "ranked": [
+    {
+      "repo": "organvm/kerygma-profiles",
+      "promoted": "2026-06-22",
+      "source": "auto-discovery",
+      "tier": "infrastructure",
+      "value": "Multi-tenant social-identity control plane for the ORGANVM distribution layer — single source of truth for per-repo voice, channels, credentials, and cadence; enables one publishing pipeline to serve N products.",
+      "first_task": "Ship profiles/profile.schema.json and wire `kerygma-profiles validate` into CI as a required gate, turning the produces->ORGAN-IV edge into a machine-checked contract.",
+      "thesis": "DISCOVERY.md"
+    }
+  ]
+}
