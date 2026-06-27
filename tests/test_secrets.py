@@ -3,9 +3,7 @@
 import os
 from unittest.mock import patch, MagicMock
 
-import pytest
-
-from kerygma_profiles.secrets import resolve_secret, clear_cache, _resolve_op
+from kerygma_profiles.secrets import resolve_secret, clear_cache
 
 
 class TestResolveSecret:

@@ -2,7 +2,7 @@
 
 import pytest
 
-from kerygma_profiles.registry import ProfileRegistry, ProjectProfile
+from kerygma_profiles.registry import ProfileRegistry
 
 
 class TestProfileRegistry:
